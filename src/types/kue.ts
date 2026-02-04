@@ -11,3 +11,7 @@ export interface Kue {
     rating?: number; // Opsional, dari 1-5
     bahanUtama?: string[]; // Opsional, array of string
 }
+
+export interface ItemKeranjang extends Kue {
+    jumlah: number;
+}

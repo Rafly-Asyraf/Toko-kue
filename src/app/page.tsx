@@ -8,8 +8,8 @@ async function getDaftarKue(): Promise<Kue[]> {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
  
   const response = await fetch(`${baseUrl}/api/kue`, {
-    // cache: "force-cache", // 'force-cache' itu selalu memakai data lama ketika data baru di update | 'no-store' jika mau selalu data baru.
-    next: { revalidate: 60 }, // refresh data tiap 60 detik ini best practicesnya
+    cache: "no-store", // 'force-cache' itu selalu memakai data lama ketika data baru di update | 'no-store' jika mau selalu data baru.
+    // next: { revalidate: 60 }, // refresh data tiap 60 detik ini best practicesnya
   });
  
   if (!response.ok) {
@@ -33,7 +33,7 @@ export default async function HalamanUtama() {
   return (
     <div>
       <h1 className="text-3xl font-bold text-center my-8 text-pink-700">
-        Selamat Datang di Toko Kue Mahir.dev!
+        Toko Jaya Putra Kue
       </h1>
  
       {daftarKue.length === 0 ? (

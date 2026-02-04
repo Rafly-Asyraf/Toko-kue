@@ -28,7 +28,9 @@
     "harga": 45000,
     "gambarUrl": "/images/kue/cookies-choco-chip.jpeg",
     "kategori": "Cookies",
+    "rating": 4.5,
     "bahanUtama": ["Tepung Terigu", "Choco Chips", "Butter", "Gula Palem"]
+
   },
   {
     "id": "red-velvet-cupcake-04",
@@ -39,5 +41,46 @@
     "gambarUrl": "/images/kue/red-velvet-cupcake.jpeg",
     "kategori": "Cupcake",
     "rating": 4.9
+  },
+  {
+    "id": "red-velvet-cupcake-05",
+    "nama": "Red Velvet Cupcake",
+    "deskripsiSingkat": "Cupcake red velvet lembut dengan cream cheese frosting.",
+    "deskripsiLengkap": "Manjakan dirimu dengan Red Velvet Cupcake kami! Tekstur cakenya yang lembut dengan warna merah menawan, dipadukan sempurna dengan cream cheese frosting yang creamy dan sedikit asam. Bikin nagih!",
+    "harga": 30000,
+    "gambarUrl": "/images/kue/red-velvet-cupcake.jpeg",
+    "kategori": "Cupcake",
+    "rating": 4.9
+  },
+  {
+    "id": "red-velvet-cupcake-06",
+    "nama": "Red Velvet Cupcake",
+    "deskripsiSingkat": "Cupcake red velvet lembut dengan cream cheese frosting.",
+    "deskripsiLengkap": "Manjakan dirimu dengan Red Velvet Cupcake kami! Tekstur cakenya yang lembut dengan warna merah menawan, dipadukan sempurna dengan cream cheese frosting yang creamy dan sedikit asam. Bikin nagih!",
+    "harga": 30000,
+    "gambarUrl": "/images/kue/red-velvet-cupcake.jpeg",
+    "kategori": "Cupcake",
+    "rating": 4.9
+  },
+  {
+    "id": "red-velvet-cupcake-07",
+    "nama": "Red Velvet Cupcake",
+    "deskripsiSingkat": "Cupcake red velvet lembut dengan cream cheese frosting.",
+    "deskripsiLengkap": "Manjakan dirimu dengan Red Velvet Cupcake kami! Tekstur cakenya yang lembut dengan warna merah menawan, dipadukan sempurna dengan cream cheese frosting yang creamy dan sedikit asam. Bikin nagih!",
+    "harga": 30000,
+    "gambarUrl": "/images/kue/red-velvet-cupcake.jpeg",
+    "kategori": "Cupcake",
+    "rating": 4.9
+  },
+  {
+    "id": "red-velvet-cupcake-08",
+    "nama": "Red Velvet Cupcake",
+    "deskripsiSingkat": "Cupcake red velvet lembut dengan cream cheese frosting.",
+    "deskripsiLengkap": "Manjakan dirimu dengan Red Velvet Cupcake kami! Tekstur cakenya yang lembut dengan warna merah menawan, dipadukan sempurna dengan cream cheese frosting yang creamy dan sedikit asam. Bikin nagih!",
+    "harga": 30000,
+    "gambarUrl": "/images/kue/red-velvet-cupcake.jpeg",
+    "kategori": "Cupcake",
+    "rating": 4.9
   }
+  
 ]
